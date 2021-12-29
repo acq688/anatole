@@ -421,6 +421,32 @@ Language Switch
   color: #2660ab;
 }
 
+.sidebar .badges {
+  list-style: none;
+  padding: 0;
+  font-size: 1.4rem;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.sidebar .badges i {
+  margin-right: 3px;
+}
+
+.sidebar .badges li {
+  display: inline;
+  padding: 0 4px;
+  line-height: 0;
+}
+
+.sidebar .badges a {
+  color: var(--heading-color);
+}
+
+.sidebar .badges a:hover {
+  color: #2660ab;
+}
+
 .post {
   background-color: var(--bg-color);
   margin: 30px;

@@ -28,5 +28,17 @@
       {{ end }}
     </ul>
   </div>
+  <div class="aws_badges">
+    <ul class="badges">
+      {{ range $item := .Site.Params.badges}}
+        <li>
+          <a href="{{ $item.url }}" title="{{ $item.title }}">
+              <img src="{{ $item.badge }}" />
+          </a>
+        </li>
+
+      {{ end }}
+    </ul>
+  </div>
   {{- partial "footer.html" (dict "context" . "footerClassModifier" "sidebar") -}}
 </div>
